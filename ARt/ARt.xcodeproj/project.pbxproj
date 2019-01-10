@@ -9,21 +9,86 @@
 /* Begin PBXBuildFile section */
 		E7EEB6F421E7295B00AEA4D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EEB6F321E7295B00AEA4D8 /* AppDelegate.swift */; };
 		E7EEB6F621E7295B00AEA4D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EEB6F521E7295B00AEA4D8 /* ViewController.swift */; };
-		E7EEB6F921E7295B00AEA4D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7EEB6F721E7295B00AEA4D8 /* Main.storyboard */; };
-		E7EEB6FC21E7295B00AEA4D8 /* ARt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E7EEB6FA21E7295B00AEA4D8 /* ARt.xcdatamodeld */; };
-		E7EEB6FE21E7296100AEA4D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7EEB6FD21E7296100AEA4D8 /* Assets.xcassets */; };
-		E7EEB70121E7296100AEA4D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7EEB6FF21E7296100AEA4D8 /* LaunchScreen.storyboard */; };
+		E7EEBA0821E7335600AEA4D8 /* WebPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EEBA0721E7335600AEA4D8 /* WebPageViewController.swift */; };
+		E7EEBA0A21E7336200AEA4D8 /* popMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EEBA0921E7336200AEA4D8 /* popMenuViewController.swift */; };
+		E7EEBA2021E7336C00AEA4D8 /* p0.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E7EEBA0C21E7336B00AEA4D8 /* p0.jpeg */; };
+		E7EEBA2121E7336C00AEA4D8 /* p1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E7EEBA0D21E7336B00AEA4D8 /* p1.jpeg */; };
+		E7EEBA2221E7336C00AEA4D8 /* p2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E7EEBA0E21E7336B00AEA4D8 /* p2.jpeg */; };
+		E7EEBA2321E7336C00AEA4D8 /* p3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E7EEBA0F21E7336B00AEA4D8 /* p3.jpeg */; };
+		E7EEBA2421E7336C00AEA4D8 /* sun-halo.png in Resources */ = {isa = PBXBuildFile; fileRef = E7EEBA1021E7336B00AEA4D8 /* sun-halo.png */; };
+		E7EEBA2521E7336C00AEA4D8 /* Hieronymus Bosch.png in Resources */ = {isa = PBXBuildFile; fileRef = E7EEBA1221E7336B00AEA4D8 /* Hieronymus Bosch.png */; };
+		E7EEBA2621E7336C00AEA4D8 /* Johannes Vermeer.png in Resources */ = {isa = PBXBuildFile; fileRef = E7EEBA1321E7336B00AEA4D8 /* Johannes Vermeer.png */; };
+		E7EEBA2721E7336C00AEA4D8 /* Leonardo da Vinci.png in Resources */ = {isa = PBXBuildFile; fileRef = E7EEBA1421E7336B00AEA4D8 /* Leonardo da Vinci.png */; };
+		E7EEBA2821E7336C00AEA4D8 /* Titian (Tiziano Vecellio).png in Resources */ = {isa = PBXBuildFile; fileRef = E7EEBA1521E7336B00AEA4D8 /* Titian (Tiziano Vecellio).png */; };
+		E7EEBA2921E7336C00AEA4D8 /* Vincent van Gogh.png in Resources */ = {isa = PBXBuildFile; fileRef = E7EEBA1621E7336B00AEA4D8 /* Vincent van Gogh.png */; };
+		E7EEBA2A21E7336C00AEA4D8 /* Johann Sebastian Bach - Cello Suite No. 1 in G major (BWV 1007)： I. Prelude(1).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7EEBA1821E7336B00AEA4D8 /* Johann Sebastian Bach - Cello Suite No. 1 in G major (BWV 1007)： I. Prelude(1).mp3 */; };
+		E7EEBA2B21E7336C00AEA4D8 /* Adoration of the Magi.png in Resources */ = {isa = PBXBuildFile; fileRef = E7EEBA1A21E7336C00AEA4D8 /* Adoration of the Magi.png */; };
+		E7EEBA2C21E7336C00AEA4D8 /* Christ on the Cross.png in Resources */ = {isa = PBXBuildFile; fileRef = E7EEBA1B21E7336C00AEA4D8 /* Christ on the Cross.png */; };
+		E7EEBA2D21E7336C00AEA4D8 /* Girl with a Pearl Earring.png in Resources */ = {isa = PBXBuildFile; fileRef = E7EEBA1C21E7336C00AEA4D8 /* Girl with a Pearl Earring.png */; };
+		E7EEBA2E21E7336C00AEA4D8 /* Mona Lisa.png in Resources */ = {isa = PBXBuildFile; fileRef = E7EEBA1D21E7336C00AEA4D8 /* Mona Lisa.png */; };
+		E7EEBA2F21E7336C00AEA4D8 /* Starry Night.png in Resources */ = {isa = PBXBuildFile; fileRef = E7EEBA1E21E7336C00AEA4D8 /* Starry Night.png */; };
+		E7EEBA3021E7336C00AEA4D8 /* The Last Supper.png in Resources */ = {isa = PBXBuildFile; fileRef = E7EEBA1F21E7336C00AEA4D8 /* The Last Supper.png */; };
+		E7EEBA3221E7338D00AEA4D8 /* AllFloatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EEBA3121E7338D00AEA4D8 /* AllFloatButton.swift */; };
+		E7EEBA4621E733AB00AEA4D8 /* DevViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EEBA3521E733AA00AEA4D8 /* DevViewController.swift */; };
+		E7EEBA4721E733AB00AEA4D8 /* ARtShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EEBA3721E733AB00AEA4D8 /* ARtShowViewController.swift */; };
+		E7EEBA4821E733AB00AEA4D8 /* LoginPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EEBA3921E733AB00AEA4D8 /* LoginPageVC.swift */; };
+		E7EEBA4921E733AB00AEA4D8 /* RegisterPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EEBA3A21E733AB00AEA4D8 /* RegisterPageVC.swift */; };
+		E7EEBA4A21E733AB00AEA4D8 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EEBA3B21E733AB00AEA4D8 /* Request.swift */; };
+		E7EEBA4B21E733AB00AEA4D8 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EEBA3D21E733AB00AEA4D8 /* MyViewController.swift */; };
+		E7EEBA4C21E733AB00AEA4D8 /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EEBA3E21E733AB00AEA4D8 /* VC2.swift */; };
+		E7EEBA4D21E733AB00AEA4D8 /* ArtistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EEBA4021E733AB00AEA4D8 /* ArtistView.swift */; };
+		E7EEBA4E21E733AB00AEA4D8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EEBA4121E733AB00AEA4D8 /* CardView.swift */; };
+		E7EEBA4F21E733AB00AEA4D8 /* FavsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EEBA4221E733AB00AEA4D8 /* FavsViewController.swift */; };
+		E7EEBA5021E733AB00AEA4D8 /* MyScroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EEBA4421E733AB00AEA4D8 /* MyScroView.swift */; };
+		E7EEBA5121E733AB00AEA4D8 /* VCtrans.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EEBA4521E733AB00AEA4D8 /* VCtrans.swift */; };
+		E7EEBA5321E733D200AEA4D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7EEBA5221E733D200AEA4D8 /* Main.storyboard */; };
+		E7EEBA5521E733E900AEA4D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7EEBA5421E733E800AEA4D8 /* Assets.xcassets */; };
+		E7EEBA5721E733F200AEA4D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7EEBA5621E733F200AEA4D8 /* LaunchScreen.storyboard */; };
+		E7EEBA5921E7340100AEA4D8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7EEBA5821E7340100AEA4D8 /* Info.plist */; };
+		E7EEBA6221E734FB00AEA4D8 /* ARt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E7EEBA6021E734FB00AEA4D8 /* ARt.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E7EEB6F021E7295B00AEA4D8 /* ARt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7EEB6F321E7295B00AEA4D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7EEB6F521E7295B00AEA4D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E7EEB6F821E7295B00AEA4D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E7EEB6FB21E7295B00AEA4D8 /* ARt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ARt.xcdatamodel; sourceTree = "<group>"; };
-		E7EEB6FD21E7296100AEA4D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E7EEB70021E7296100AEA4D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E7EEB70221E7296100AEA4D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7EEBA0721E7335600AEA4D8 /* WebPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebPageViewController.swift; sourceTree = "<group>"; };
+		E7EEBA0921E7336200AEA4D8 /* popMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = popMenuViewController.swift; sourceTree = "<group>"; };
+		E7EEBA0C21E7336B00AEA4D8 /* p0.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p0.jpeg; sourceTree = "<group>"; };
+		E7EEBA0D21E7336B00AEA4D8 /* p1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p1.jpeg; sourceTree = "<group>"; };
+		E7EEBA0E21E7336B00AEA4D8 /* p2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p2.jpeg; sourceTree = "<group>"; };
+		E7EEBA0F21E7336B00AEA4D8 /* p3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p3.jpeg; sourceTree = "<group>"; };
+		E7EEBA1021E7336B00AEA4D8 /* sun-halo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sun-halo.png"; sourceTree = "<group>"; };
+		E7EEBA1221E7336B00AEA4D8 /* Hieronymus Bosch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hieronymus Bosch.png"; sourceTree = "<group>"; };
+		E7EEBA1321E7336B00AEA4D8 /* Johannes Vermeer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Johannes Vermeer.png"; sourceTree = "<group>"; };
+		E7EEBA1421E7336B00AEA4D8 /* Leonardo da Vinci.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Leonardo da Vinci.png"; sourceTree = "<group>"; };
+		E7EEBA1521E7336B00AEA4D8 /* Titian (Tiziano Vecellio).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Titian (Tiziano Vecellio).png"; sourceTree = "<group>"; };
+		E7EEBA1621E7336B00AEA4D8 /* Vincent van Gogh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vincent van Gogh.png"; sourceTree = "<group>"; };
+		E7EEBA1821E7336B00AEA4D8 /* Johann Sebastian Bach - Cello Suite No. 1 in G major (BWV 1007)： I. Prelude(1).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Johann Sebastian Bach - Cello Suite No. 1 in G major (BWV 1007)： I. Prelude(1).mp3"; sourceTree = "<group>"; };
+		E7EEBA1A21E7336C00AEA4D8 /* Adoration of the Magi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Adoration of the Magi.png"; sourceTree = "<group>"; };
+		E7EEBA1B21E7336C00AEA4D8 /* Christ on the Cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Christ on the Cross.png"; sourceTree = "<group>"; };
+		E7EEBA1C21E7336C00AEA4D8 /* Girl with a Pearl Earring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Girl with a Pearl Earring.png"; sourceTree = "<group>"; };
+		E7EEBA1D21E7336C00AEA4D8 /* Mona Lisa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mona Lisa.png"; sourceTree = "<group>"; };
+		E7EEBA1E21E7336C00AEA4D8 /* Starry Night.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Starry Night.png"; sourceTree = "<group>"; };
+		E7EEBA1F21E7336C00AEA4D8 /* The Last Supper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Last Supper.png"; sourceTree = "<group>"; };
+		E7EEBA3121E7338D00AEA4D8 /* AllFloatButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllFloatButton.swift; sourceTree = "<group>"; };
+		E7EEBA3521E733AA00AEA4D8 /* DevViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevViewController.swift; sourceTree = "<group>"; };
+		E7EEBA3721E733AB00AEA4D8 /* ARtShowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARtShowViewController.swift; sourceTree = "<group>"; };
+		E7EEBA3921E733AB00AEA4D8 /* LoginPageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPageVC.swift; sourceTree = "<group>"; };
+		E7EEBA3A21E733AB00AEA4D8 /* RegisterPageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPageVC.swift; sourceTree = "<group>"; };
+		E7EEBA3B21E733AB00AEA4D8 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		E7EEBA3D21E733AB00AEA4D8 /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		E7EEBA3E21E733AB00AEA4D8 /* VC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
+		E7EEBA4021E733AB00AEA4D8 /* ArtistView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistView.swift; sourceTree = "<group>"; };
+		E7EEBA4121E733AB00AEA4D8 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		E7EEBA4221E733AB00AEA4D8 /* FavsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavsViewController.swift; sourceTree = "<group>"; };
+		E7EEBA4421E733AB00AEA4D8 /* MyScroView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyScroView.swift; sourceTree = "<group>"; };
+		E7EEBA4521E733AB00AEA4D8 /* VCtrans.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCtrans.swift; sourceTree = "<group>"; };
+		E7EEBA5221E733D200AEA4D8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E7EEBA5421E733E800AEA4D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7EEBA5621E733F200AEA4D8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7EEBA5821E7340100AEA4D8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7EEBA6121E734FB00AEA4D8 /* ARtdataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ARtdataModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +121,135 @@
 		E7EEB6F221E7295B00AEA4D8 /* ARt */ = {
 			isa = PBXGroup;
 			children = (
+				E7EEBA1721E7336B00AEA4D8 /* 音乐 */,
+				E7EEBA1121E7336B00AEA4D8 /* author */,
+				E7EEBA1921E7336C00AEA4D8 /* Pictures */,
+				E7EEBA0B21E7336B00AEA4D8 /* works */,
 				E7EEB6F321E7295B00AEA4D8 /* AppDelegate.swift */,
 				E7EEB6F521E7295B00AEA4D8 /* ViewController.swift */,
-				E7EEB6F721E7295B00AEA4D8 /* Main.storyboard */,
-				E7EEB6FD21E7296100AEA4D8 /* Assets.xcassets */,
-				E7EEB6FF21E7296100AEA4D8 /* LaunchScreen.storyboard */,
-				E7EEB70221E7296100AEA4D8 /* Info.plist */,
-				E7EEB6FA21E7295B00AEA4D8 /* ARt.xcdatamodeld */,
+				E7EEBA0721E7335600AEA4D8 /* WebPageViewController.swift */,
+				E7EEBA0921E7336200AEA4D8 /* popMenuViewController.swift */,
+				E7EEBA3321E7339300AEA4D8 /* AllFloatBtn */,
+				E7EEBA3621E733AB00AEA4D8 /* ARfunc */,
+				E7EEBA3421E733AA00AEA4D8 /* DEV */,
+				E7EEBA3F21E733AB00AEA4D8 /* FAV */,
+				E7EEBA3821E733AB00AEA4D8 /* login */,
+				E7EEBA4321E733AB00AEA4D8 /* SCr */,
+				E7EEBA3C21E733AB00AEA4D8 /* oldcodesNotUsing */,
+				E7EEBA5221E733D200AEA4D8 /* Main.storyboard */,
+				E7EEBA5421E733E800AEA4D8 /* Assets.xcassets */,
+				E7EEBA5621E733F200AEA4D8 /* LaunchScreen.storyboard */,
+				E7EEBA5821E7340100AEA4D8 /* Info.plist */,
+				E7EEBA6021E734FB00AEA4D8 /* ARt.xcdatamodeld */,
 			);
 			path = ARt;
+			sourceTree = "<group>";
+		};
+		E7EEBA0B21E7336B00AEA4D8 /* works */ = {
+			isa = PBXGroup;
+			children = (
+				E7EEBA0C21E7336B00AEA4D8 /* p0.jpeg */,
+				E7EEBA0D21E7336B00AEA4D8 /* p1.jpeg */,
+				E7EEBA0E21E7336B00AEA4D8 /* p2.jpeg */,
+				E7EEBA0F21E7336B00AEA4D8 /* p3.jpeg */,
+				E7EEBA1021E7336B00AEA4D8 /* sun-halo.png */,
+			);
+			path = works;
+			sourceTree = "<group>";
+		};
+		E7EEBA1121E7336B00AEA4D8 /* author */ = {
+			isa = PBXGroup;
+			children = (
+				E7EEBA1221E7336B00AEA4D8 /* Hieronymus Bosch.png */,
+				E7EEBA1321E7336B00AEA4D8 /* Johannes Vermeer.png */,
+				E7EEBA1421E7336B00AEA4D8 /* Leonardo da Vinci.png */,
+				E7EEBA1521E7336B00AEA4D8 /* Titian (Tiziano Vecellio).png */,
+				E7EEBA1621E7336B00AEA4D8 /* Vincent van Gogh.png */,
+			);
+			path = author;
+			sourceTree = "<group>";
+		};
+		E7EEBA1721E7336B00AEA4D8 /* 音乐 */ = {
+			isa = PBXGroup;
+			children = (
+				E7EEBA1821E7336B00AEA4D8 /* Johann Sebastian Bach - Cello Suite No. 1 in G major (BWV 1007)： I. Prelude(1).mp3 */,
+			);
+			path = "音乐";
+			sourceTree = "<group>";
+		};
+		E7EEBA1921E7336C00AEA4D8 /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				E7EEBA1A21E7336C00AEA4D8 /* Adoration of the Magi.png */,
+				E7EEBA1B21E7336C00AEA4D8 /* Christ on the Cross.png */,
+				E7EEBA1C21E7336C00AEA4D8 /* Girl with a Pearl Earring.png */,
+				E7EEBA1D21E7336C00AEA4D8 /* Mona Lisa.png */,
+				E7EEBA1E21E7336C00AEA4D8 /* Starry Night.png */,
+				E7EEBA1F21E7336C00AEA4D8 /* The Last Supper.png */,
+			);
+			path = Pictures;
+			sourceTree = "<group>";
+		};
+		E7EEBA3321E7339300AEA4D8 /* AllFloatBtn */ = {
+			isa = PBXGroup;
+			children = (
+				E7EEBA3121E7338D00AEA4D8 /* AllFloatButton.swift */,
+			);
+			path = AllFloatBtn;
+			sourceTree = "<group>";
+		};
+		E7EEBA3421E733AA00AEA4D8 /* DEV */ = {
+			isa = PBXGroup;
+			children = (
+				E7EEBA3521E733AA00AEA4D8 /* DevViewController.swift */,
+			);
+			path = DEV;
+			sourceTree = "<group>";
+		};
+		E7EEBA3621E733AB00AEA4D8 /* ARfunc */ = {
+			isa = PBXGroup;
+			children = (
+				E7EEBA3721E733AB00AEA4D8 /* ARtShowViewController.swift */,
+			);
+			path = ARfunc;
+			sourceTree = "<group>";
+		};
+		E7EEBA3821E733AB00AEA4D8 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				E7EEBA3921E733AB00AEA4D8 /* LoginPageVC.swift */,
+				E7EEBA3A21E733AB00AEA4D8 /* RegisterPageVC.swift */,
+				E7EEBA3B21E733AB00AEA4D8 /* Request.swift */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		E7EEBA3C21E733AB00AEA4D8 /* oldcodesNotUsing */ = {
+			isa = PBXGroup;
+			children = (
+				E7EEBA3D21E733AB00AEA4D8 /* MyViewController.swift */,
+				E7EEBA3E21E733AB00AEA4D8 /* VC2.swift */,
+			);
+			path = oldcodesNotUsing;
+			sourceTree = "<group>";
+		};
+		E7EEBA3F21E733AB00AEA4D8 /* FAV */ = {
+			isa = PBXGroup;
+			children = (
+				E7EEBA4021E733AB00AEA4D8 /* ArtistView.swift */,
+				E7EEBA4121E733AB00AEA4D8 /* CardView.swift */,
+				E7EEBA4221E733AB00AEA4D8 /* FavsViewController.swift */,
+			);
+			path = FAV;
+			sourceTree = "<group>";
+		};
+		E7EEBA4321E733AB00AEA4D8 /* SCr */ = {
+			isa = PBXGroup;
+			children = (
+				E7EEBA4421E733AB00AEA4D8 /* MyScroView.swift */,
+				E7EEBA4521E733AB00AEA4D8 /* VCtrans.swift */,
+			);
+			path = SCr;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +310,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7EEB70121E7296100AEA4D8 /* LaunchScreen.storyboard in Resources */,
-				E7EEB6FE21E7296100AEA4D8 /* Assets.xcassets in Resources */,
-				E7EEB6F921E7295B00AEA4D8 /* Main.storyboard in Resources */,
+				E7EEBA2321E7336C00AEA4D8 /* p3.jpeg in Resources */,
+				E7EEBA2A21E7336C00AEA4D8 /* Johann Sebastian Bach - Cello Suite No. 1 in G major (BWV 1007)： I. Prelude(1).mp3 in Resources */,
+				E7EEBA2621E7336C00AEA4D8 /* Johannes Vermeer.png in Resources */,
+				E7EEBA2121E7336C00AEA4D8 /* p1.jpeg in Resources */,
+				E7EEBA2221E7336C00AEA4D8 /* p2.jpeg in Resources */,
+				E7EEBA2521E7336C00AEA4D8 /* Hieronymus Bosch.png in Resources */,
+				E7EEBA2E21E7336C00AEA4D8 /* Mona Lisa.png in Resources */,
+				E7EEBA2D21E7336C00AEA4D8 /* Girl with a Pearl Earring.png in Resources */,
+				E7EEBA2F21E7336C00AEA4D8 /* Starry Night.png in Resources */,
+				E7EEBA5321E733D200AEA4D8 /* Main.storyboard in Resources */,
+				E7EEBA2421E7336C00AEA4D8 /* sun-halo.png in Resources */,
+				E7EEBA2921E7336C00AEA4D8 /* Vincent van Gogh.png in Resources */,
+				E7EEBA3021E7336C00AEA4D8 /* The Last Supper.png in Resources */,
+				E7EEBA5721E733F200AEA4D8 /* LaunchScreen.storyboard in Resources */,
+				E7EEBA5521E733E900AEA4D8 /* Assets.xcassets in Resources */,
+				E7EEBA2B21E7336C00AEA4D8 /* Adoration of the Magi.png in Resources */,
+				E7EEBA2021E7336C00AEA4D8 /* p0.jpeg in Resources */,
+				E7EEBA2721E7336C00AEA4D8 /* Leonardo da Vinci.png in Resources */,
+				E7EEBA2821E7336C00AEA4D8 /* Titian (Tiziano Vecellio).png in Resources */,
+				E7EEBA2C21E7336C00AEA4D8 /* Christ on the Cross.png in Resources */,
+				E7EEBA5921E7340100AEA4D8 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +341,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7EEBA4621E733AB00AEA4D8 /* DevViewController.swift in Sources */,
+				E7EEBA3221E7338D00AEA4D8 /* AllFloatButton.swift in Sources */,
+				E7EEBA4F21E733AB00AEA4D8 /* FavsViewController.swift in Sources */,
+				E7EEBA5121E733AB00AEA4D8 /* VCtrans.swift in Sources */,
+				E7EEBA0A21E7336200AEA4D8 /* popMenuViewController.swift in Sources */,
+				E7EEBA0821E7335600AEA4D8 /* WebPageViewController.swift in Sources */,
+				E7EEBA4E21E733AB00AEA4D8 /* CardView.swift in Sources */,
+				E7EEBA4A21E733AB00AEA4D8 /* Request.swift in Sources */,
 				E7EEB6F621E7295B00AEA4D8 /* ViewController.swift in Sources */,
-				E7EEB6FC21E7295B00AEA4D8 /* ARt.xcdatamodeld in Sources */,
+				E7EEBA4721E733AB00AEA4D8 /* ARtShowViewController.swift in Sources */,
+				E7EEBA5021E733AB00AEA4D8 /* MyScroView.swift in Sources */,
 				E7EEB6F421E7295B00AEA4D8 /* AppDelegate.swift in Sources */,
+				E7EEBA4D21E733AB00AEA4D8 /* ArtistView.swift in Sources */,
+				E7EEBA6221E734FB00AEA4D8 /* ARt.xcdatamodeld in Sources */,
+				E7EEBA4C21E733AB00AEA4D8 /* VC2.swift in Sources */,
+				E7EEBA4921E733AB00AEA4D8 /* RegisterPageVC.swift in Sources */,
+				E7EEBA4B21E733AB00AEA4D8 /* MyViewController.swift in Sources */,
+				E7EEBA4821E733AB00AEA4D8 /* LoginPageVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		E7EEB6F721E7295B00AEA4D8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E7EEB6F821E7295B00AEA4D8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E7EEB6FF21E7296100AEA4D8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E7EEB70021E7296100AEA4D8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E7EEB70321E7296100AEA4D8 /* Debug */ = {
@@ -340,13 +539,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		E7EEB6FA21E7295B00AEA4D8 /* ARt.xcdatamodeld */ = {
+		E7EEBA6021E734FB00AEA4D8 /* ARt.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				E7EEB6FB21E7295B00AEA4D8 /* ARt.xcdatamodel */,
+				E7EEBA6121E734FB00AEA4D8 /* ARtdataModel.xcdatamodel */,
 			);
-			currentVersion = E7EEB6FB21E7295B00AEA4D8 /* ARt.xcdatamodel */;
-			path = ARt.xcdatamodeld;
+			currentVersion = E7EEBA6121E734FB00AEA4D8 /* ARtdataModel.xcdatamodel */;
+			name = ARt.xcdatamodeld;
+			path = "../../../zzyARt 2/ARt/ARt.xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
