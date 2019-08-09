@@ -81,14 +81,20 @@ class ViewController: UIViewController,UIScrollViewDelegate ,FloatDelegate , UIP
         
         //self.prefersStatusBarHidden
         
-//            Insert(author: "Leonardo da Vinci", picture: "Mona Lisa", date: "1503-1517",isseen: "0", isfavorite: "0")
-//            Insert(author: "Vincent van Gogh", picture: "Starry Night",date:"around 1889",isseen: "0", isfavorite: "0")
-//            Insert(author: "Johannes Vermeer", picture: "Girl with a Pearl Earring",date:"1665", isseen: "0", isfavorite: "0")
-//            Insert(author: "Hieronymus Bosch", picture: "Adoration of the Magi", date:"1470-1510",isseen: "0", isfavorite: "0")
-//            Insert(author: "Titian (Tiziano Vecellio)", picture: "Christ on the Cross", date:"1951",isseen: "0", isfavorite: "0")
-//            Insert(author: "Leonardo da Vinci", picture: "The Last Supper", date:"1494-1498",isseen: "0", isfavorite: "0")
         
-
+        //PS : 因为 xcdata，如果第一次，运行下列注释内容，添加数据项。
+        //PS : if it's your first time to run, please Run code between  🚀🚀🚀
+        
+        //🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
+        
+//        Insert(author: "Leonardo da Vinci", picture: "Mona Lisa", date: "1503-1517",isseen: "0", isfavorite: "0")
+//        Insert(author: "Vincent van Gogh", picture: "Starry Night",date:"around 1889",isseen: "0", isfavorite: "0")
+//        Insert(author: "Johannes Vermeer", picture: "Girl with a Pearl Earring",date:"1665", isseen: "0", isfavorite: "0")
+//        Insert(author: "Hieronymus Bosch", picture: "Adoration of the Magi", date:"1470-1510",isseen: "0", isfavorite: "0")
+//        Insert(author: "Titian (Tiziano Vecellio)", picture: "Christ on the Cross", date:"1951",isseen: "0", isfavorite: "0")
+//        Insert(author: "Leonardo da Vinci", picture: "The Last Supper", date:"1494-1498",isseen: "0", isfavorite: "0")
+        //🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
+        
         
         Get()
         GetData()   //加载数据
@@ -127,6 +133,10 @@ class ViewController: UIViewController,UIScrollViewDelegate ,FloatDelegate , UIP
             
             scrollview.addSubview(vc)
         }
+        for i in arrInfo{
+            print(i)
+        }
+        
         self.view.addSubview(scrollview)
         image = UIImage(named: arrInfo[0].picture)
         

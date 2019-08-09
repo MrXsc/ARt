@@ -6,7 +6,7 @@ remake a  App called ‘DailyArt’  with AR function
 
 
 [1]: https://apps.apple.com/cn/app/dailyart-free-daily-dose-fine/id547982045 "Title"
-
+![](Img/img_Run.png)
 
 
 ## Main View
@@ -38,6 +38,8 @@ remake a  App called ‘DailyArt’  with AR function
 - utilizing ARKit
 
 ![](Img/img_AR.png)
+
+
 
 
 
