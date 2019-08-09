@@ -22,6 +22,7 @@ remake a  App called ‘DailyArt’  with AR function
 
 - 📜 单击 打开关闭 Menu 
 - 🎵 双击 打开关闭 Music  
+- 🛸 长按 拖拽
 
 ![](Img/img_Menu.png)
 
